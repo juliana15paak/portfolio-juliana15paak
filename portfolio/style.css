@@ -1,0 +1,37 @@
+:root{
+  --color-primary-light: #F8F8FF;
+  --color-primary-dark: #1E1E1E;
+  --color-secondary: #8A2EFF;
+  --color-tertiary: #2EFFF3;
+  --color-quaternary: #FF2EA3;
+
+  /*shades*/
+  --color-shadow: #EFF3F5;
+  --color-shadow-secondary: #F9F1FF;
+  --color-shadow-tertiary: #00000012;
+  --color-primary-light-shadow1: #9E9EA2;
+  --color-primary-light-shadow2: #666669;
+  --color-primary-dark-shadow1: #171717;
+  --color-primary-dark-shadow2: #111111;
+  --color-secondary-shadow1: #5C25A2;
+  --color-secondary-shadow2: #3F1D6A;
+  --color-tertiary-shadow1: #2EA29B;
+  --color-tertiary-shadow2: #276965;
+  --color-quaternary-shadow1: #A3296A;
+  --color-quaternary-shadow2: #6B2146;
+
+  /*tints*/
+  --color-primary-light-tone1: #FAFAFF;
+  --color-primary-light-tone2: #FCFCFF;
+  --color-primary-dark-tone1: #606060;
+  --color-primary-dark-tone2: #929292;
+  --color-secondary-tone1: #B47AFF;
+  --color-secondary-tone2: #D4A6FF;
+  --color-secondary-tone3: #EDD7FF;
+  --color-tertiary-tone1: #94FFF7;
+  --color-tertiary-tone2: #BDFFFA;
+  --color-tertiary-tone3: #E3FFFD;
+  --color-quaternary-tone1: #FF87C1;
+  --color-quaternary-tone2: #FFB1D5;
+  --color-quaternary-tone3: #FFDDEC;
+}
