@@ -1,2 +1,2 @@
-# portfolio-juliana15paak
+# Portfólio Juliana Alves
 Portfólio de projetos de desenvolvimento de sistemas.
