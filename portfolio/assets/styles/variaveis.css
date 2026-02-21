@@ -47,6 +47,6 @@
   --ff-body: Inter, sans-serif;
 
   /*gradients*/
-  --gradient-secondary: linear-gradient(90, var(--color-secondary), var(var(--secondary-shadow1)));
-  --gradient-tertiary: linear-gradient(90, var(--color-tertiary), var(var(--tertiary-shadow1)));
+  --gradient-secondary: linear-gradient(90deg, var(--color-secondary), var(--secondary-shadow1));
+  --gradient-tertiary: linear-gradient(90deg, var(--color-tertiary), var(--tertiary-shadow1));
 }

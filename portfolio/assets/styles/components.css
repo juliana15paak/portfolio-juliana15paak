@@ -1,3 +1,15 @@
-.btn-neutral{
+.btn-primary{
   background: var(--gradient-tertiary);
+  padding: 8px 16px;
+  border: none;
+  border-radius: var(--radius-md);
+  width: fit-content;
+  /* box-shadow: ; */
+}
+.btn-secondary{
+  padding: 8px 16px;
+  border-color: var(--gradient-tertiary);
+  border-radius: var(--radius-md);
+  width: fit-content;
+  /* box-shadow: ; */
 }
