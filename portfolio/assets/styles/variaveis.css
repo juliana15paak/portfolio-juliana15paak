@@ -1,44 +1,52 @@
 :root{
-  --color-primary-light: #F8F8FF;
-  --color-primary-dark: #1E1E1E;
+  --color-light: #F8F8FF;
+  --color-dark: #1E1E1E;
   --color-secondary: #8A2EFF;
   --color-tertiary: #2EFFF3;
   --color-quaternary: #FF2EA3;
 
   /*shades*/
-  --color-shadow: #EFF3F5;
-  --color-shadow-secondary: #F9F1FF;
-  --color-shadow-tertiary: #00000012;
-  --color-primary-light-shadow1: #9E9EA2;
-  --color-primary-light-shadow2: #666669;
-  --color-primary-dark-shadow1: #171717;
-  --color-primary-dark-shadow2: #111111;
-  --color-secondary-shadow1: #5C25A2;
-  --color-secondary-shadow2: #3F1D6A;
-  --color-tertiary-shadow1: #2EA29B;
-  --color-tertiary-shadow2: #276965;
-  --color-quaternary-shadow1: #A3296A;
-  --color-quaternary-shadow2: #6B2146;
+  --shadow: #EFF3F5;
+  --shadow-secondary: #F9F1FF;
+  --shadow-tertiary: #00000012;
+  --light-shadow1: #9E9EA2;
+  --light-shadow2: #666669;
+  --dark-shadow1: #171717;
+  --dark-shadow2: #111111;
+  --secondary-shadow1: #5C25A2;
+  --secondary-shadow2: #3F1D6A;
+  --tertiary-shadow1: #2EA29B;
+  --tertiary-shadow2: #276965;
+  --quaternary-shadow1: #A3296A;
+  --quaternary-shadow2: #6B2146;
 
   /*tints*/
-  --color-primary-light-tone1: #FAFAFF;
-  --color-primary-light-tone2: #FCFCFF;
-  --color-primary-dark-tone1: #606060;
-  --color-primary-dark-tone2: #929292;
-  --color-secondary-tone1: #B47AFF;
-  --color-secondary-tone2: #D4A6FF;
-  --color-secondary-tone3: #EDD7FF;
-  --color-tertiary-tone1: #94FFF7;
-  --color-tertiary-tone2: #BDFFFA;
-  --color-tertiary-tone3: #E3FFFD;
-  --color-quaternary-tone1: #FF87C1;
-  --color-quaternary-tone2: #FFB1D5;
-  --color-quaternary-tone3: #FFDDEC;
-
+  --light-tone1: #FAFAFF;
+  --light-tone2: #FCFCFF;
+  --dark-tone1: #606060;
+  --dark-tone2: #929292;
+  --secondary-tone1: #B47AFF;
+  --secondary-tone2: #D4A6FF;
+  --secondary-tone3: #EDD7FF;
+  --tertiary-tone1: #94FFF7;
+  --tertiary-tone2: #BDFFFA;
+  --tertiary-tone3: #E3FFFD;
+  --quaternary-tone1: #FF87C1;
+  --quaternary-tone2: #FFB1D5;
+  --quaternary-tone3: #FFDDEC;
+  
   /*tamanhos*/
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 16px;
 
   --max-width:1200px;
+
+  /*tipografia*/
+  --ff-title: Sora, sans-serif;
+  --ff-body: Inter, sans-serif;
+
+  /*gradients*/
+  --gradient-secondary: linear-gradient(90, var(--color-secondary), var(var(--secondary-shadow1)));
+  --gradient-tertiary: linear-gradient(90, var(--color-tertiary), var(var(--tertiary-shadow1)));
 }
