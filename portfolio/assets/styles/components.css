@@ -22,6 +22,20 @@
   border-radius: var(--radius-md);
   background-color: var(--secondary-tone3);
 }
+.project-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--shadow);
+  padding: 0 1rem 2rem;
+  border-radius: var(--radius-lg);
+}
+.stack{
+  padding: 8px 16px;
+  border: 2px solid var(--color-quaternary);
+  border-radius: var(--radius-lg);
+}
 .service__card{
   display: flex;
   flex-direction: column;

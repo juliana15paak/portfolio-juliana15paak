@@ -116,7 +116,14 @@ ul li a{
   min-height: 100vh;
   gap: 4rem;
 }
-
+.project__cards{
+  display: flex;
+  gap: 2rem;
+}
+.stacks{
+  display: flex;
+  gap: 1rem;
+}
 
 #services{
   display: flex;
