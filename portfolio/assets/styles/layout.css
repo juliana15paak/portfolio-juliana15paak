@@ -44,11 +44,10 @@ ul li a{
   display: flex;
   justify-content: center;
   padding: 2rem;
-  background: radial-gradient(circle at bottom, var(--color-light), var(--secondary-tone3));
   min-height: 90vh;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/formas.svg);
+  background-image: url(../img/formas/formas.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -73,9 +72,9 @@ ul li a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  margin-top: 2rem;
+  padding: 4rem;
   min-height: 90vh;
+  background: radial-gradient(circle at top, var(--color-light), var(--secondary-tone3));
 }
 .about-main{
   display: grid;
@@ -108,6 +107,17 @@ ul li a{
   gap: 8px;
 }
 
+#projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+  min-height: 100vh;
+  gap: 4rem;
+}
+
+
 #services{
   display: flex;
   flex-direction: column;
@@ -115,6 +125,9 @@ ul li a{
   padding: 2rem 5rem;
   margin-top: 2rem;
   min-height: 90vh;
+  background-image: url(../img/formas/3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .services__texts{
   display: flex;
