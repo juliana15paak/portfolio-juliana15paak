@@ -4,7 +4,7 @@
   border: none;
   border-radius: var(--radius-md);
   width: fit-content;
-  /* box-shadow: ; */
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 .btn-secondary{
   padding: 8px 16px;
@@ -12,7 +12,7 @@
   border-color: var(--color-tertiary);
   border-radius: var(--radius-md);
   width: fit-content;
-  /* box-shadow: ; */
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 .card{
   display: flex;
@@ -45,4 +45,10 @@ textarea{
   border: none;
   resize: none;
   height: 200px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: var(--secondary-tone3);
 }

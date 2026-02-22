@@ -48,9 +48,9 @@ ul li a{
   min-height: 90vh;
   justify-content: center;
   align-items: center;
-  /* background-image: url(../img/formas.svg);
+  background-image: url(../img/formas.svg);
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 .home__texts{
   display: flex;

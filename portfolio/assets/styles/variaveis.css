@@ -48,5 +48,5 @@
 
   /*gradients*/
   --gradient-secondary: linear-gradient(90deg, var(--color-secondary), var(--secondary-shadow1));
-  --gradient-tertiary: linear-gradient(90deg, var(--color-tertiary), var(--tertiary-shadow1));
+  --gradient-tertiary: linear-gradient(180deg, var(--color-tertiary), var(--tertiary-tone1));
 }
