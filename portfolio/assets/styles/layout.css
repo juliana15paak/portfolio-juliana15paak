@@ -132,3 +132,59 @@ ul li a{
   flex-direction: column;
   gap: 8px;
 }
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+  margin-top: 2rem;
+  min-height: 100vh;
+  gap: 4rem;
+}
+.infos-e-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+.contact__infos{
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  text-align: center;
+  gap: 2rem;
+}
+.infos{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.info{
+  display: flex;
+  align-items: center;
+  text-align: start;
+  gap: 1rem;
+}
+.contact__form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+.inputs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.campos{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
