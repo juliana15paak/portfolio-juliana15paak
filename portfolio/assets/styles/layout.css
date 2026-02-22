@@ -99,7 +99,7 @@ ul li a{
 .cards{
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
   margin: 1rem auto;
 }
 .card__texts{
@@ -126,4 +126,9 @@ ul li a{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
+}
+.service__card-texts{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
