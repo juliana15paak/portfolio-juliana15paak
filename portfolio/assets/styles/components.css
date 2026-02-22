@@ -14,3 +14,21 @@
   width: fit-content;
   /* box-shadow: ; */
 }
+.card{
+  display: flex;
+  padding: 2rem;
+  gap: 24px;
+  align-items: start;
+  border-radius: var(--radius-md);
+  background-color: var(--secondary-tone3);
+}
+.service__card{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 48px 48px 0 48px;
+  gap: 1rem;
+  background-color: var(--shadow-secondary);
+  border: 8px solid var(--color-secondary);
+  border-radius: var(--radius-md);
+}

@@ -51,12 +51,18 @@ ul li a{
   /* background-image: url(../img/formas.svg);
   background-repeat: no-repeat;
   background-size: cover; */
-
 }
 .home__texts{
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: 1rem;
+}
+.span-inicio{
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  gap: 2px;
 }
 .btn-primary a, .btn-secondary a{
   font-weight: bold;
@@ -68,16 +74,56 @@ ul li a{
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  margin-top: 2rem;
   min-height: 90vh;
+}
+.about-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem;
+  gap: 4rem;
+  align-items: center;
 }
 .about__intro{
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 1rem;
 }
 .ctas{
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin: 1rem auto;
+}
+.card__texts{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#services{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem 5rem;
+  margin-top: 2rem;
+  min-height: 90vh;
+}
+.services__texts{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem;
+}
+.services__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
 }
