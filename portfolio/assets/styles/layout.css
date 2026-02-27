@@ -116,12 +116,19 @@ ul li a{
   min-height: 100vh;
   gap: 4rem;
 }
-.project__cards{
+.projects__cards{
   display: flex;
+  flex-wrap: nowrap;
   gap: 2rem;
 }
 .stacks{
   display: flex;
+  gap: 1rem;
+}
+.project-card .texts{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   gap: 1rem;
 }
 
