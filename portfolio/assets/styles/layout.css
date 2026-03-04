@@ -45,7 +45,6 @@ ul li a{
   justify-content: center;
   padding: 2rem;
   min-height: 90vh;
-  justify-content: center;
   align-items: center;
   background-image: url(../img/formas/formas.svg);
   background-repeat: no-repeat;
@@ -55,6 +54,7 @@ ul li a{
   display: flex;
   flex-direction: column;
   align-items: start;
+  width: 80vw;
   gap: 1rem;
 }
 .span-inicio{
@@ -130,6 +130,15 @@ ul li a{
   flex-direction: column;
   text-align: center;
   gap: 1rem;
+}
+
+#timeline{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem 5rem;
+  margin-top: 2rem;
+  min-height: 90vh;
 }
 
 #services{
