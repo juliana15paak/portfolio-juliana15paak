@@ -112,6 +112,7 @@ ul li a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
   padding: 2rem 5rem;
   min-height: 100vh;
   gap: 4rem;
@@ -136,27 +137,41 @@ ul li a{
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 2rem 5rem;
+  box-sizing: border-box;
+  padding: 2rem 4rem;
   margin-top: 2rem;
   min-height: 90vh;
 }
 .timeline__cards{
+  display: flex;
   padding: 4rem;
+  gap: 2rem;
+  overflow: auto;
+}
+.trajetoria{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
 .trajetoria .texts{
   display: flex;
   flex-direction: column;
+  width: 40vw;
   align-items: start;
   text-align: start;
   gap: 1rem;
+}
+.trajetoria .stacks{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #services{
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 2rem 5rem;
-  margin-top: 2rem;
+  padding: 0 5rem;
   min-height: 90vh;
   background-image: url(../img/formas/3.svg);
   background-repeat: no-repeat;
