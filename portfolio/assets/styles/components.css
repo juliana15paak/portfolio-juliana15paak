@@ -38,6 +38,23 @@
   border: 2px solid var(--color-quaternary);
   border-radius: var(--radius-lg);
 }
+.stack-secondary{
+  background-color: var(--color-quaternary);
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  border: 2px solid var(--color-quaternary);
+  border-radius: var(--radius-lg);
+}
+.card-timeline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  background-color: var(--shadow-secondary);
+  border: 8px solid var(--color-secondary);
+  border-radius: var(--radius-md);
+}
 .service__card{
   display: flex;
   flex-direction: column;

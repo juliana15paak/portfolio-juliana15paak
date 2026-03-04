@@ -140,6 +140,16 @@ ul li a{
   margin-top: 2rem;
   min-height: 90vh;
 }
+.timeline__cards{
+  padding: 4rem;
+}
+.trajetoria .texts{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  gap: 1rem;
+}
 
 #services{
   display: flex;
