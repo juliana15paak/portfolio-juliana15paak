@@ -72,6 +72,10 @@
   text-align: center;
   border: 2px solid var(--color-quaternary);
   border-radius: var(--radius-lg);
+  transition: transform 0.3 ease;
+}
+.stack:hover{
+  transform: translateY(-2px);
 }
 .stack-secondary{
   background-color: var(--color-quaternary);
@@ -81,6 +85,10 @@
   text-align: center;
   border: 2px solid var(--color-quaternary);
   border-radius: var(--radius-lg);
+  transition: transform 0.3 ease;
+}
+.stack-secondary:hover{
+  transform: translateY(-2px);
 }
 .card-timeline{
   display: flex;
