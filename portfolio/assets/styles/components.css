@@ -93,6 +93,7 @@
   border: 8px solid var(--color-secondary);
   border-radius: var(--radius-md);
   box-shadow: 4px 4px 7px #00000057;
+  scroll-snap-align: start;
 }
 .service__card{
   display: flex;

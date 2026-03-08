@@ -182,7 +182,12 @@ ul li:hover{
   display: flex;
   padding: 4rem 0;
   gap: 2rem;
-  overflow: auto;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.timeline__cards::-webkit-scrollbar{
+  display: none;
 }
 .trajetoria{
   display: flex;
