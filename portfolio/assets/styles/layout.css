@@ -264,6 +264,16 @@ ul li:hover{
   text-align: start;
   gap: 1rem;
 }
+.conecte{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.redes{
+  display: flex;
+  align-self: center;
+  gap: 12px;
+}
 .contact__form{
   display: flex;
   flex-direction: column;
