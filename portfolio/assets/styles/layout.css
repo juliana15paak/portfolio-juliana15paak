@@ -66,6 +66,7 @@ ul li:hover{
   align-items: start;
   gap: 1rem;
   line-height: 1rem;
+  cursor: default;
 }
 .texts{
   line-height: 54px;
@@ -157,12 +158,14 @@ ul li:hover{
 .stacks{
   display: flex;
   gap: 1rem;
+  cursor: default;
 }
 .project-card__texts{
   display: flex;
   flex-direction: column;
   text-align: center;
   gap: 1rem;
+  cursor: default;
 }
 
 #timeline{
@@ -176,7 +179,7 @@ ul li:hover{
 }
 .timeline__cards{
   display: flex;
-  padding: 4rem;
+  padding: 4rem 0;
   gap: 2rem;
   overflow: auto;
 }
