@@ -5,6 +5,8 @@
   border-radius: var(--radius-md);
   width: fit-content;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 .btn-secondary{
   padding: 8px 16px;
@@ -13,6 +15,14 @@
   border-radius: var(--radius-md);
   width: fit-content;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  transform: translateY(-2px);
+}
+.btn-secondary:hover{
+  transform: translateY(-2px);
 }
 .card{
   display: flex;
@@ -21,6 +31,11 @@
   align-items: start;
   border-radius: var(--radius-md);
   background-color: var(--secondary-tone3);
+  box-shadow: 2px 2px 4px #00000072;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+  transform: translateY(-4px);
 }
 .project-card{
   display: flex;
