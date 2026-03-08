@@ -62,6 +62,7 @@
   cursor: pointer;
   box-shadow: 4px 4px 7px #0000005b;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  scroll-snap-align: start;
 }
 .project-card:hover{
   transform: translateY(-4px);

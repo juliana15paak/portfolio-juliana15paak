@@ -144,17 +144,23 @@ ul li:hover{
 #projects{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: start;
   margin-top: 2rem;
-  padding: 2rem 5rem;
-  min-height: 100vh;
-  gap: 4rem;
+  padding: 2rem 0 2rem 5rem;
+  min-height: 90vh;
+  gap: 1rem;
 }
 .projects__cards{
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding: 2rem;
   gap: 2rem;
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.projects__cards::-webkit-scrollbar{
+  display: none;
 }
 .stacks{
   display: flex;
@@ -173,15 +179,15 @@ ul li:hover{
   display: flex;
   flex-direction: column;
   text-align: center;
-  box-sizing: border-box;
-  padding: 2rem 4rem;
+  padding: 2rem 0 2rem 4rem;
   margin-top: 2rem;
   min-height: 90vh;
+  gap: 1rem;
 }
 .timeline__cards{
   display: flex;
-  padding: 4rem 0;
   gap: 2rem;
+  padding: 2rem 2rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
