@@ -326,4 +326,34 @@ ul li:hover{
 }
 .modal:target{
   display: flex;
+  flex-direction: column;
 }
+.modal__content{
+  align-items: end;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  padding: 2rem;
+  border-radius: var(--radius-md);
+  text-align: start;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 2rem 2rem 0;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+}
+.modal__texts{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 4px;
+}
+.modal__texts h2{
+  color: var(--dark-tone1);
+  margin-bottom: 0;
+}
+.modal__texts p{
+  color: var(--dark-tone2);
+}
+
+
