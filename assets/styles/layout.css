@@ -324,3 +324,6 @@ ul li:hover{
   flex-direction: column;
   gap: 1rem;
 }
+.modal:target{
+  display: flex;
+}
