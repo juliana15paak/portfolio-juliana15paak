@@ -207,56 +207,57 @@
 
     <section id="timeline">
       <h2>Minha trajetória</h2>
-      <div class="timeline__cards">
-        <div class="card-timeline" id="item1">
-          <div class="trajetoria">
-            <div class="trajetoria__texts">
-              <h3>Técnica em Desenvolvimento de Sistemas</h3>
-              <p>Formada em Técnico em Desenvolvimento de Sistemas integrado ao Ensino Médio. Me apaixonei por tecnologia durante esses 3 anos que deram início a minha jornada nessa área, aprendendo de verdade e ganhando experiência com projetos práticos, como o TCC.</p>
-              <div class="local">
-                <!-- icone de local -->
-                <p>Etec de Guaianases - São Paulo</p>
+
+      <div class="carousel-wrapper">
+        <button class="arrow-btn prev" onclick="scrollTimeline(-1)">&#10094;</button>
+          <div class="timeline__cards" id="timelineList">
+            <div class="card-timeline" id="item1">
+              <div class="trajetoria">
+                <div class="trajetoria__texts">
+                  <h3>Técnica em Desenvolvimento de Sistemas</h3>
+                  <p>Formada em Técnico em Desenvolvimento de Sistemas integrado ao Ensino Médio. Me apaixonei por tecnologia durante esses 3 anos que deram início a minha jornada nessa área, aprendendo de verdade e ganhando experiência com projetos práticos, como o TCC.</p>
+                  <div class="local">
+                    <!-- icone de local -->
+                    <p>Etec de Guaianases - São Paulo</p>
+                  </div>
+                  <div class="stacks">
+                    <div class="stack-secondary">REACT NATIVE</div>
+                    <div class="stack-secondary">SQL</div>
+                    <div class="stack-secondary">JAVA</div>
+                    <div class="stack-secondary">JAVASCRIPT</div>
+                    <div class="stack-secondary">HTML</div>
+                    <div class="stack-secondary">CSS</div>
+                    <div class="stack-secondary">PHP</div>
+                    <div class="stack-secondary">LARAVEL</div>
+                  </div>
+                </div>
+                <img src="assets/img/apex.jpeg" alt="" width="400px">
               </div>
-              <div class="stacks">
-                <div class="stack-secondary">REACT NATIVE</div>
-                <div class="stack-secondary">SQL</div>
-                <div class="stack-secondary">JAVA</div>
-                <div class="stack-secondary">JAVASCRIPT</div>
-                <div class="stack-secondary">HTML</div>
-                <div class="stack-secondary">CSS</div>
-                <div class="stack-secondary">PHP</div>
-                <div class="stack-secondary">LARAVEL</div>
-              </div>
+              <p>2022 - 2024</p>
             </div>
-            <img src="assets/img/apex.jpeg" alt="" width="400px">
-          </div>
-          <p>2022 - 2024</p>
-          <a class="btn-next" href="#item2">
-            <img src="assets/img/icons/arrow.svg" alt="seta para direita" width="42px">
-          </a>
-        </div>
-        
-        <div class="card-timeline" id="item2">
-          <div class="trajetoria">
-            <div class="trajetoria__texts">
-              <h3>Graduanda em Análise e Desenvolvimento de Sistemas</h3>
-              <p>Cursando o 3° Semestre em Análise e Desenvolvimento de Sistemas na Fatec. Participo de competições de programação como a interfatecs, estou desenvolvendo projetos acadêmicos e fortalecendo minha base para o início de uma carreira como Engenheira de Software.</p>
-              <div class="local">
-                <!-- icone de local -->
-                <p>Fatec Ferraz de Vasconcelos - São Paulo</p>
+            
+            <div class="card-timeline" id="item2">
+              <div class="trajetoria">
+                <div class="trajetoria__texts">
+                  <h3>Graduanda em Análise e Desenvolvimento de Sistemas</h3>
+                  <p>Cursando o 3° Semestre em Análise e Desenvolvimento de Sistemas na Fatec. Participo de competições de programação como a interfatecs, estou desenvolvendo projetos acadêmicos e fortalecendo minha base para o início de uma carreira como Engenheira de Software.</p>
+                  <div class="local">
+                    <!-- icone de local -->
+                    <p>Fatec Ferraz de Vasconcelos - São Paulo</p>
+                  </div>
+                  <div class="stacks">
+                    <div class="stack-secondary">FIGMA</div>
+                    <div class="stack-secondary">UX/UI</div>
+                    <div class="stack-secondary">PYTHON</div>
+                    <div class="stack-secondary">ALGORITMOS</div>
+                  </div>
+                </div>
+                <img src="assets/img/fatec.jpeg" alt="" width="400px">
               </div>
-              <div class="stacks">
-                <div class="stack-secondary">FIGMA</div>
-                <div class="stack-secondary">UX/UI</div>
-                <div class="stack-secondary">PYTHON</div>
-                <div class="stack-secondary">ALGORITMOS</div>
-              </div>
+              <p>2025 - 2027</p>
             </div>
-            <img src="assets/img/fatec.jpeg" alt="" width="400px">
           </div>
-          <p>2025 - 2027</p>
-          <!-- <button>avançar</button> -->
-        </div>
+        <button class="arrow-btn next" onclick="scrollTimeline(1)">&#10095;</button>
       </div>
     </section>
 

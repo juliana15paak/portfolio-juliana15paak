@@ -230,6 +230,13 @@ ul li:hover{
   min-height: 90vh;
   gap: 1rem;
 }
+#timeline .carousel-wrapper {
+  position: relative;
+  width: 100%;
+}
+#timeline .prev { left: -1rem; }
+#timeline .next { right: 1rem; }
+
 #timeline h2{
   margin-left: -2rem;
 }
