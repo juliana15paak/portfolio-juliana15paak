@@ -90,84 +90,118 @@
 
     <section id="projects">
       <h2>Confira alguns projetos</h2>
-      <div class="projects__cards">
-        <div class="project-card">
-          <img src="assets/img/amigodesangue.png" alt="" width="480px" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
-          <div class="stacks">
-            <p class="stack">React Native</p>
-            <p class="stack">Tailwind CSS</p>
-            <p class="stack">TypeScript</p>
-          </div>
-          <div class="project-card__texts">
-            <h3>Amigo de Sangue</h3>
-            <p>Aplicativo para conectar doadores de sangue à hemocentros. Com campanhas, carteirinha de doador digital e mais.</p>
-          </div>
-          <div class="project-card__statuslink">
-            <div class="project-card__link">
-              <a href="https://github.com/juliana15paak/APP-amigo-de-sangue" target="_blank">
-                <img src="assets/img/icons/open-extern.svg" alt="link para o github do projeto amigo de sangue" style="margin-bottom: -4px;">
-              </a>
-              <a href="https://github.com/juliana15paak/APP-amigo-de-sangue" target="_blank">
-                <img src="assets/img/icons/github-gray.svg" alt="link para o github do projeto amigo de sangue" style="margin-bottom: -4px;">
-              </a>
+      <div class="carousel-wrapper" >
+        <button class="arrow-btn prev" onclick="scrollCarousel(-1)">&#10094;</button>
+        <div class="projects__cards" id="projectsList">
+          <div class="project-card">
+            <img src="assets/img/integracat.png" alt="" width="480px" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
+            <div class="stacks">
+              <p class="stack">HTML</p>
+              <p class="stack">CSS</p>
+              <p class="stack">JavaScript</p>
+              <p class="stack">Figma</p>
             </div>
-            <div class="project-card__status">
-              <img src="assets/img/icons/check.svg" alt="">
-              <p>Concluído</p>
+            <div class="project-card__texts">
+              <h3>IntegraCAT - Serasa & PROA</h3>
+              <p>Plataforma B2B para gestão de Segurança do Trabalho, registro digital de CATs e prevenção de acidentes. Inclui dashboard com KPIs em tempo real e monitoramento de riscos.</p>
+            </div>
+            <div class="project-card__statuslink">
+              <div class="project-card__link">
+                <a href="https://integracat.github.io/IntegraCAT-site/" target="_blank">
+                  <img src="assets/img/icons/open-extern.svg" alt="link para o site do projeto integraCAT" style="margin-bottom: -4px;">
+                </a>
+                <a href="https://github.com/IntegraCAT/IntegraCAT-site" target="_blank">
+                  <img src="assets/img/icons/github-gray.svg" alt="link para o código fonte (github) do projeto integraCAT" style="margin-bottom: -4px;">
+                </a>
+              </div>
+              <div class="project-card__status">
+                <img src="assets/img/icons/check.svg" alt="">
+                <p>Concluído</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="assets/img/amigodesangue.png" alt="" width="480px" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
+            <div class="stacks">
+              <p class="stack">React Native</p>
+              <p class="stack">Tailwind CSS</p>
+              <p class="stack">TypeScript</p>
+            </div>
+            <div class="project-card__texts">
+              <h3>Amigo de Sangue - TCC</h3>
+              <p>Aplicativo para conectar doadores de sangue à hemocentros. A plataforma conta com um sistema de campanhas, carteirinha digital, histórico completo de doações e mais.</p>
+            </div>
+            <div class="project-card__statuslink">
+              <div class="project-card__link">
+                <a href="https://github.com/juliana15paak/APP-amigo-de-sangue" target="_blank">
+                  <img src="assets/img/icons/open-extern.svg" alt="link para o código fonte (github) do projeto amigo de sangue" style="margin-bottom: -4px;">
+                </a>
+                <a href="https://github.com/juliana15paak/APP-amigo-de-sangue" target="_blank">
+                  <img src="assets/img/icons/github-gray.svg" alt="link para o código fonte (github) do projeto amigo de sangue" style="margin-bottom: -4px;">
+                </a>
+              </div>
+              <div class="project-card__status">
+                <img src="assets/img/icons/check.svg" alt="">
+                <p>Concluído</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="assets/img/igrejasconnect.png" alt="" width="480px" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
+            <div class="stacks">
+              <p class="stack">HTML</p>
+              <p class="stack">CSS</p>
+              <p class="stack">JavaScript</p>
+              <p class="stack">Figma</p>
+            </div>
+            <div class="project-card__texts">
+              <h3>Igrejas Connect</h3>
+              <p>Plataforma para conectar diferentes igrejas em um só lugar. O projeto oferece divulgação de eventos e ações sociais, permitindo que os usuários façam doações e se voluntariem.</p>
+            </div>
+            <div class="project-card__statuslink">
+              <div class="project-card__link">
+                <a href="https://github.com/juliana15paak/igrejas-connect" target="_blank">
+                  <img src="assets/img/icons/open-extern.svg" alt="link para o código fonte (github) do projeto igrejas connect" style="margin-bottom: -4px;">
+                </a>
+                <a href="https://github.com/juliana15paak/igrejas-connect" target="_blank">
+                  <img src="assets/img/icons/github-gray.svg" alt="link para o código fonte (github) do projeto igrejas connect" style="margin-bottom: -4px;">
+                </a>
+              </div>
+              <div class="project-card__status">
+                <img src="assets/img/icons/rotate.svg" alt="">
+                <p>Em progresso</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="assets/img/acrenova.png" alt="página inicial de um site para um negócio de renovação de estofados" width="480px" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
+            <div class="stacks">
+              <p class="stack">HTML</p>
+              <p class="stack">CSS</p>
+              <p class="stack">JavaScript</p>
+              <p class="stack">Figma</p>
+            </div>
+            <div class="project-card__texts">
+              <h3>A&C Renova Estofados</h3>
+              <p>Landing Page responsiva e focada em conversão para um negócio local de higienização de estofados. Inclui link direto para o WhatsApp para orçamentos rápidos e otimização SEO para busca regional.</p>
+            </div>
+            <div class="project-card__statuslink">
+              <div class="project-card__link">
+                <a href="https://www.aecrenovaestofados.com.br/" target="_blank">
+                  <img src="assets/img/icons/open-extern.svg" alt="link para o site a e c renova estofados" style="margin-bottom: -4px;">
+                </a>
+                <a href="https://github.com/juliana15paak/ac-renova-estofados" target="_blank">
+                  <img src="assets/img/icons/github-gray.svg" alt="link para o código fonte (github) do projeto a e c renova estofados" style="margin-bottom: -4px;">
+                </a>
+              </div>
+              <div class="project-card__status">
+                <img src="assets/img/icons/check.svg" alt="">
+                <p>Concluído</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="project-card">
-          <img src="assets/img/igrejasconnect.png" alt="" width="480px" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
-          <div class="stacks">
-            <p class="stack">HTML</p>
-            <p class="stack">CSS</p>
-            <p class="stack">JavaScript</p>
-          </div>
-          <div class="project-card__texts">
-            <h3>Igrejas Connect</h3>
-            <p>Plataforma para conectar diferentes igrejas em um só lugar. Com divulgação de cursos, ações sociais, eventos e mais.</p>
-          </div>
-          <div class="project-card__statuslink">
-            <div class="project-card__link">
-              <a href="https://github.com/juliana15paak/igrejas-connect" target="_blank">
-                <img src="assets/img/icons/open-extern.svg" alt="link para o github do projeto igrejas connect" style="margin-bottom: -4px;">
-              </a>
-              <a href="https://github.com/juliana15paak/igrejas-connect" target="_blank">
-                <img src="assets/img/icons/github-gray.svg" alt="link para o github do projeto igrejas connect" style="margin-bottom: -4px;">
-              </a>
-            </div>
-            <div class="project-card__status">
-              <img src="assets/img/icons/rotate.svg" alt="">
-              <p>Em progresso</p>
-            </div>
-          </div>
-        </div>
-        <div class="project-card">
-          <img src="assets/img/acrenova.png" alt="página inicial de um site para um negócio de renovação de estofados" width="480px" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
-          <div class="stacks">
-            <p class="stack">HTML</p>
-            <p class="stack">CSS</p>
-          </div>
-          <div class="project-card__texts">
-            <h3>A&C Renova Estofados</h3>
-            <p>Landing Page responsiva e focada em conversão desenvolvida para um negócio local de higienização de estofados.</p>
-          </div>
-          <div class="project-card__statuslink">
-            <div class="project-card__link">
-              <a href="https://juliana15paak.github.io/ac-renova-estofados/" target="_blank">
-                <img src="assets/img/icons/open-extern.svg" alt="link para o site a e c renova estofados" style="margin-bottom: -4px;">
-              </a>
-              <a href="https://github.com/juliana15paak/ac-renova-estofados" target="_blank">
-                <img src="assets/img/icons/github-gray.svg" alt="link para o github do projeto a e c renova estofados" style="margin-bottom: -4px;">
-              </a>
-            </div>
-            <div class="project-card__status">
-              <img src="assets/img/icons/rotate.svg" alt="">
-              <p>Em progresso</p>
-            </div>
-          </div>
-        </div>
+        <button class="arrow-btn next" onclick="scrollCarousel(1)">&#10095;</button>
       </div>
     </section>
 
@@ -329,5 +363,7 @@
   <footer>
     <small>&copy; Todos os direitos reservados.</small>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
