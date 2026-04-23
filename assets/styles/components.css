@@ -85,7 +85,7 @@
 .stack{
   padding: 4px 16px;
   text-align: center;
-  border: 2px solid var(--color-quaternary);
+  border: 2px solid var(--color-secondary);
   border-radius: var(--radius-lg);
   transition: transform 0.3 ease;
 }
