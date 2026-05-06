@@ -2,6 +2,8 @@
 
 Bem-vinda(o) ao repositório do meu portfólio! Sou uma desenvolvedora Front-end e Mobile, apaixonada por dar vida a ideias através do código e criar interfaces que unem funcionalidade e excelente experiência do usuário (UX/UI).
 
+Acesse aqui!: <a href="https://juliana15paak.github.io/portfolio-juliana15paak/">Link do Portfolio</a>
+
 ---
 
 ### 👩🏻‍💻 Sobre mim
