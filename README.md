@@ -4,6 +4,9 @@ Bem-vinda(o) ao repositório do meu portfólio! Sou uma desenvolvedora Front-end
 
 Acesse aqui!: <a href="https://juliana15paak.github.io/portfolio-juliana15paak/">Link do Portfolio</a>
 
+<img width="1353" height="609" alt="portfolio" src="https://github.com/user-attachments/assets/93b6add6-6080-41f1-9992-c01e8270aa35" />
+
+
 ---
 
 ### 👩🏻‍💻 Sobre mim
