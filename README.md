@@ -1,25 +1,35 @@
-# Olá! Eu sou a Juliana Alves👋
+# Olá! Eu sou a Juliana Alves 👋
 
-Bem-vinda(o) ao repositório do meu portfólio! Sou uma desenvolvedora Front-end em formação, apaixonada por dar vida a ideias através do código e criar interfaces web funcionais.
+Bem-vinda(o) ao repositório do meu portfólio! Sou uma desenvolvedora Front-end e Mobile, apaixonada por dar vida a ideias através do código e criar interfaces que unem funcionalidade e excelente experiência do usuário (UX/UI).
 
-## 👩🏻‍💻 Sobre mim
+---
 
-* 🎓 Estudante de Análise e Desenvolvimento de Sistemas na **FATEC**.
-* 💻 Atualmente aprofundando meus conhecimentos em Desenvolvimento Front-end no curso do **Instituto PROA com a Serasa**.
-* 🚀 Focada em criar experiências de usuário intuitivas e responsivas.
+### 👩🏻‍💻 Sobre mim
 
-## 🛠️ Tecnologias Utilizadas
+*   🎓 Estudante do **3º semestre** de Análise e Desenvolvimento de Sistemas na **FATEC**.
+*   💻 Técnica em Desenvolvimento de Sistemas pela **ETEC** e formada em Front-end pelo **Instituto PROA & Serasa**.
+*   🚀 Focada em criar experiências web e mobile intuitivas, performáticas e responsivas.
+*   🎯 Busco sempre unir a visão estratégica de produto com a qualidade técnica do código.
 
-Este projeto foi construído puramente com as bases da web, focando em semântica e estilização:
+---
 
-* **HTML5**
-* **CSS3**
+### 🛠️ Tecnologias Utilizadas (Neste Portfólio)
 
-## 📂 Projetos em Destaque
+Este projeto foi construído puramente com as bases da web, focando em semântica, acessibilidade e estilização limpa:
+*   **HTML5**
+*   **CSS3**
+*   **JavaScript**
 
-- **Amigo de Sangue:** Aplicativo para conectar doadores de sangue à hemocentros. Com campanhas, carteirinha de doador digital e mais.
-- **Igrejas Connect:** Plataforma para conectar diferentes igrejas em um só lugar. Com divulgação de cursos, ações sociais, eventos e mais.
-- **A&C Renova Estofados:** Site focado em serviços de higienização, destacando a identidade visual e os contatos do negócio.
+---
+
+### 📂 Projetos em Destaque
+
+*   **IntegraCAT:** Plataforma web B2B focada em segurança do trabalho. Atuei com dupla responsabilidade como **Product Owner (PO)** e **Desenvolvedora Front-end**, garantindo a entrega desde o protótipo de alta fidelidade no **Figma** até a interface responsiva.
+*   **A&C Renova Estofados:** Landing Page focada em serviços de higienização. Desenvolvida com foco em alta performance (**Lighthouse**) e **SEO local**, destacando a identidade visual e os contatos do negócio para a região de São Paulo.
+*   **Amigo de Sangue:** Aplicativo mobile para conectar doadores de sangue a hemocentros. Conta com sistema de campanhas, carteirinha de doador digital e hemocentros mais próximos.
+*   **Igrejas Connect:** Plataforma para conectar diferentes igrejas em um só lugar, focada na divulgação de cursos, ações sociais, eventos e integração da comunidade.
+
+---
 
 ## 📫 Como me encontrar
 
