@@ -384,3 +384,48 @@ ul li:hover{
   margin: 0;
   line-height: 1.5;
 }
+
+@media (max-width: 768px){
+  section{
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .about-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .trajetoria{
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #projects{
+    padding: 1.5rem 1rem;
+  }
+  #timeline{
+    padding: 1rem;
+  }
+  .trajetoria__texts{
+    width: 100%;
+  }
+  #services{
+    padding: 1.5rem;
+  }
+  .services__texts{
+    padding: 1.5rem 0;
+  }
+  .services__cards{
+    display: flex;
+    flex-direction: column;
+  }
+  #contact{
+    padding: 1.5rem;
+  }
+  .contact__infos{
+    padding: 0;
+    justify-content: center;
+  }
+  .infos-e-form{
+    display: flex;
+    flex-direction: column;
+  }
+}

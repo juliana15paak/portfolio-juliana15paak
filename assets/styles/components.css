@@ -257,3 +257,10 @@ footer{
   padding: 1rem 0;
   background-color: var(--secondary-tone3);
 }
+
+@media (max-width: 768px){
+  .card-timeline{
+    padding: 1rem;
+  }
+
+}
