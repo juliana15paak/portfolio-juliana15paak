@@ -390,9 +390,42 @@ ul li:hover{
     flex-direction: column;
     padding: 1rem;
   }
+  h1{
+    font-family: var(--ff-title);
+    font-size: 36px;
+  }
+  h2{
+    font-family: var(--ff-title);
+    font-size: 24px;
+  }
+  h3{
+    font-family: var(--ff-title);
+    font-size: 20px;
+  }
+  h4{
+    font-family: var(--ff-title);
+    font-size: 18px;
+  }
+  p{
+    font-size: 16px;
+  }
+  #home{
+    padding: 0;
+  }
+  .home__texts{
+    align-items: center;
+    text-align: center;
+  }
+  .art{
+    display: none;
+  }
+  #about{
+    padding: 2rem 1.5rem;
+  }
   .about-main{
     display: flex;
     flex-direction: column;
+    padding: 1.5rem 0;
   }
   .trajetoria{
     flex-direction: column;
@@ -409,9 +442,10 @@ ul li:hover{
   }
   #services{
     padding: 1.5rem;
+    gap: 2rem;
   }
   .services__texts{
-    padding: 1.5rem 0;
+    padding: 0;
   }
   .services__cards{
     display: flex;
@@ -426,6 +460,7 @@ ul li:hover{
   }
   .infos-e-form{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+
   }
 }
