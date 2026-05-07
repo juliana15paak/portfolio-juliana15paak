@@ -411,6 +411,7 @@ ul li:hover{
   }
   #home{
     padding: 0;
+    gap: 0;
   }
   .home__texts{
     align-items: center;
@@ -429,13 +430,19 @@ ul li:hover{
   }
   .trajetoria{
     flex-direction: column;
-    padding: 1rem;
+    padding: 0;
   }
   #projects{
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+  }
+  .stacks{
+    flex-wrap: wrap;
   }
   #timeline{
     padding: 1rem;
+  }
+  .timeline__cards{
+    padding: 0;
   }
   .trajetoria__texts{
     width: 100%;
