@@ -247,32 +247,79 @@ ul li:hover{
   flex-wrap: wrap;
 }
 
-#services{
+#skills{
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 0 5rem;
+  padding: 5rem;
   min-height: 90vh;
-  background-image: url(../img/formas/3.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.services__texts{
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 4rem;
-}
-.services__cards{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
+  background: radial-gradient(circle at top, var(--color-light), var(--secondary-tone3));
+
 }
-.service__card-texts{
+.skills__texts{
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 1.5rem;
+}
+.skills__cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.skills__details{
+  display: flex;
+}
+#details-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#detail-list{
+  display: flex;
+  flex-direction: column;
+}
+.project-item{
+  list-style: none;
+  border-radius: 0.5rem;
+  background-color: var(--shadow-secondary);
+  border-bottom: 4px solid var(--color-secondary);
+  padding: 0.875rem;
+  gap: 1rem;
+  transition: color 0.2s;
+}
+.project-item-title{
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+
+}
+.project-item:hover{
+  background-color: var(--secondary-tone3);
+}
+.project-item-summary{
+  display: none;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--color-dark);
+  line-height: 1.4;
+  padding-left: 0.875rem;
+  border-left: 2px solid var(--color-secondary);
+}
+.project-item.active .project-item-summary{
+  display: block;
+  animation: slideDown 0.2s ease-out;
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 #contact{
