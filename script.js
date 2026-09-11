@@ -46,10 +46,10 @@ function moveMini(direction, trackId) {
 //=========================== SELEÇÃO DE SKILLS ==========================
 const skillsData = {
   design: {
-    title: "Produto & Design (A Arte)",
+    title: "Design (A Arte)",
     description: "Foi na FATEC que dei meus primeiros passos no Figma e me apaixonei por UI/UX. Gosto de pensar na interface como a ponte humana do projeto, garantindo consistência visual e focando sempre na experiência de quem vai usar.",
-    mediaImg: "caminho-da-sua-imagem-design.png",
-    mediaDesc: "Prototipagem de telas no Figma",
+    mediaImg: "./assets/img/skills/prototipos-figma-integracat.png",
+    mediaDesc: "Prototipagem de telas do IntegraCAT no Figma",
     projects: [
       { name: "IntegraCAT (B2B)", summary: "Sistema para digitalização de relatórios de incidentes e gestão de riscos ocupacionais, com foco total na usabilidade para o RH." },
       { name: "A&C Renova Estofados", summary: "Landing page responsiva projetada com foco em conversão e otimização de SEO local." }
@@ -66,7 +66,7 @@ const skillsData = {
     ]
   },
   mobile: {
-    title: "Mobile (A Virada de Chave)",
+    title: "Mobile",
     description: "Foi construindo o app 'Amigo de Sangue' no TCC que minha paixão pela programação ganhou forma. Mas a grande descoberta ali foram os bastidores: as sprints, os brainstorms e a comunicação com o time. Ali eu entendi que amava codar, mas amava ainda mais construir junto.",
     mediaImg: "caminho-da-sua-imagem-mobile.png",
     mediaDesc: "Aplicativo Mobile rodando ou foto da equipe do TCC",
