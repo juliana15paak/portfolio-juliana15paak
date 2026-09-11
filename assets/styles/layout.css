@@ -270,6 +270,7 @@ ul li:hover{
 }
 .skills__details{
   display: flex;
+  gap: 2rem;
 }
 #details-container{
   display: flex;

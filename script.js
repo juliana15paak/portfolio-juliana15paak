@@ -48,7 +48,12 @@ const skillsData = {
   design: {
     title: "Design (A Arte)",
     description: "Foi na FATEC que dei meus primeiros passos no Figma e me apaixonei por UI/UX. Gosto de pensar na interface como a ponte humana do projeto, garantindo consistência visual e focando sempre na experiência de quem vai usar.",
-    mediaImg: "./assets/img/skills/prototipos-figma-integracat.png",
+    mediaImg: [
+      "./assets/img/skills/prototipos-figma-integracat.png",
+      "./assets/img/skills/prototipos-figma-aecrenova.png",
+      "./assets/img/skills/prototipos-igrejas-connect.png",
+      "./assets/img/skills/prototipos-mobile-igrejas.png",
+    ],
     mediaDesc: "Prototipagem de telas do IntegraCAT no Figma",
     projects: [
       { name: "IntegraCAT (B2B)", summary: "Sistema para digitalização de relatórios de incidentes e gestão de riscos ocupacionais, com foco total na usabilidade para o RH." },
@@ -61,7 +66,7 @@ const skillsData = {
     mediaImg: "caminho-da-sua-imagem-front.png",
     mediaDesc: "Código Front-end em execução",
     projects: [
-      { name: "Transforme-se (Serasa Experian)", summary: "Imersão em desenvolvimento Front-end, onde pude aliar as melhores práticas de código com visão de negócio." },
+      { name: "Transforme-se (Serasa Experian)", summary: "Imersão em desenvolvimento Front-end, onde pude aliar as melhores práticas de código com visão de produto." },
       { name: "A&C Renova Estofados", summary: "Desenvolvimento da interface web com integração para WhatsApp, focando em performance e acessibilidade." }
     ]
   },
